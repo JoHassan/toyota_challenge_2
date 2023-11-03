@@ -1,0 +1,191 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Simple Calculator'
+  ClientHeight = 249
+  ClientWidth = 322
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 322.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Simple Calculator'
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 209.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object GridLayout1: TGridLayout
+    Align = Client
+    ItemHeight = 64.000000000000000000
+    ItemWidth = 64.000000000000000000
+    Orientation = Horizontal
+    Size.Width = 322.000000000000000000
+    Size.Height = 192.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btn0: TButton
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      Text = '0'
+      OnClick = btn0Click
+    end
+    object btn1: TButton
+      Tag = 1
+      Position.X = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = '1'
+    end
+    object btn2: TButton
+      Tag = 2
+      HelpContext = 2
+      Position.X = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = '2'
+    end
+    object btn3: TButton
+      Tag = 3
+      HelpContext = 3
+      Position.X = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = '3'
+    end
+    object btn4: TButton
+      Tag = 4
+      HelpContext = 4
+      Position.X = 256.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = '4'
+    end
+    object btn5: TButton
+      Tag = 5
+      HelpContext = 5
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = '5'
+    end
+    object btn6: TButton
+      Tag = 6
+      HelpContext = 6
+      Position.X = 64.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = '6'
+    end
+    object btn7: TButton
+      Tag = 7
+      HelpContext = 7
+      Position.X = 128.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = '7'
+    end
+    object btn8: TButton
+      Tag = 8
+      Position.X = 192.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = '8'
+    end
+    object btn9: TButton
+      Tag = 9
+      HelpContext = 9
+      Position.X = 256.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = '9'
+    end
+    object addBtn: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '+'
+      TextSettings.Font.Size = 25.000000000000000000
+    end
+    object minusBtn: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 64.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = '-'
+      TextSettings.Font.Size = 25.000000000000000000
+    end
+    object multiplyBtn: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 128.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = '*'
+      TextSettings.Font.Size = 25.000000000000000000
+    end
+    object divideBtn: TButton
+      Position.X = 192.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '/'
+    end
+    object resultBtn: TButton
+      Position.X = 256.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '='
+    end
+  end
+end

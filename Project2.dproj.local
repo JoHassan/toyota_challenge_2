@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/02 16:45:52.000.830,=C:\Users\jothe\delphistudioprojects\Unit2.pas</Transaction>
+    <Transaction>2023/11/03 03:00:30.266,=C:\Users\jothe\delphistudioprojects\Unit2.pas</Transaction>
+    <Transaction>2023/11/03 03:27:07.123,C:\Users\jothe\delphistudioprojects\simpleCalculator\Unit2.pas=C:\Users\jothe\delphistudioprojects\Unit2.pas</Transaction>
+    <Transaction>2023/11/03 03:27:07.123,C:\Users\jothe\delphistudioprojects\simpleCalculator\Unit2.fmx=C:\Users\jothe\delphistudioprojects\Unit2.fmx</Transaction>
+    <Transaction>2023/11/03 03:27:08.740,C:\Users\jothe\delphistudioprojects\simpleCalculator\Project2.dproj=C:\Users\jothe\delphistudioprojects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
